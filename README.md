@@ -44,13 +44,13 @@ gcc main.c -o securepass -lssl -lcrypto
 
 Windows (MinGW example):
 
-```bash
+```
 gcc main.c -o securepass.exe -lssl -lcrypto
 ```
 
 ## Run
 
-```bash
+```
 ./securepass
 ```
 
