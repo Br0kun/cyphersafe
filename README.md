@@ -38,9 +38,9 @@ It uses a per-user master password (SHA-256) and a simple XOR layer to store ent
 Requires OpenSSL development libraries.
 
 Linux:
-```bash
+```
 gcc main.c -o securepass -lssl -lcrypto
-````
+`````
 
 Windows (MinGW example):
 
